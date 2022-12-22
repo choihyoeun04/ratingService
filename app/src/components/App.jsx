@@ -9,10 +9,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/about" component={About} />
-        <Route path="/menu" component={Menu} />
-        <Route path="/order" component={OrderOnline} />
-        <Route path="/contact" component={Contact} />
+
       </Switch>
       <Footer />
     </div>
