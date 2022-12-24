@@ -1,17 +1,21 @@
 import React from "react";
-import logo from "./logo.svg";
+import Header from "./Header";
 import "./App.css";
-import {Route, Switch} from "react-router-dom";
+import Workers from "./Workers";
+import { Routes ,Route } from 'react-router-dom';
+import Home from "./Home";
+
 
 function App() {
   return (
     <div className="appBody">
       <Header />
-      <Switch>
+      <Routes>
+        
         <Route path="/" component={Home} exact />
+        <Route path="/workers" component={Workers} exact />
 
-      </Switch>
-      <Footer />
+      </Routes>
     </div>
   );
 }
