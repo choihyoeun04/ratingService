@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-
+import {Button} from "react-bootstrap"
 /*import "./HomeButton.css"*/
 
 function HomeButton(props) {
@@ -13,14 +13,14 @@ function handleMouseOut() {
 }
 return (
   <Link to={props.path}>
-    <button
+    <Button
       className="homeButtons"
-      style={{ backgroundColor: isMouseOver ? "#3E2B1C" : "#f1eade", color: isMouseOver ? "#f1eade" : "#3E2B1C"}}
+      style={{ backgroundColor: isMouseOver ? "#594545" : "#FFF8EA", color: isMouseOver ? "#FFF8EA" : "#594545"}}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
       {props.buttonName}
-    </button>
+    </Button>
   </Link>
 );
 }

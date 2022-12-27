@@ -5,8 +5,14 @@ import {Container, Row, Col, Image} from "react-bootstrap";
 function Home() {
   return (
     <Container>
-        <Image className="testing" src="/images/testimage.jpg" alt="HomeBread1"/>
-
+      <Col>
+        <Row>
+          <Image className="testing" src="/images/testimage.png" alt="HomeBread1"/>
+        </Row>
+      </Col>
+        
+        
+      <h1>hi</h1>
     </Container>
   );
 }

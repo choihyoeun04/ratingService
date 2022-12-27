@@ -13,7 +13,7 @@ function App() {
       <Routes>
         
         <Route path="/" component={Home} exact />
-        <Route path="/workers" component={Workers} exact />
+        <Route path="/workers" component={Workers} />
 
       </Routes>
     </div>
