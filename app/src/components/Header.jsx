@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import HomeButton from "./HomeButton";
-/*import "./Header.css"*/
 import {Container, Row, Col, Navbar, Button, ButtonGroup} from "react-bootstrap"
 
 

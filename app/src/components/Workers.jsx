@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+/*import React, {useEffect, useState} from 'react';
 import {Container, Row, Col, Image} from "react-bootstrap"
 
 function Menu() {
@@ -35,7 +35,7 @@ function Menu() {
                 <hr className="menuPriceLine" />
                 <p className="menuDescription">{bread.description}</p>
               </Col>
-            )})}*/}
+            )})}
         </Row>
       </Container>
     </div>
@@ -43,4 +43,4 @@ function Menu() {
 }
 
 
-export default Menu;
+export default Menu;*/
