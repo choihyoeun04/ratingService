@@ -1,4 +1,4 @@
-/*import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Container, Row, Col, Image} from "react-bootstrap"
 
 function Menu() {
@@ -26,16 +26,16 @@ function Menu() {
             <hr className="menuLine" />
             <p className="menuText">I'm a paragraph. Click here to add your own text and edit me. It’s easy.</p>
           </Col>
-          {/*{workers.map(workers => {
+          {{workers.map(worker => {
             return (
               <Col>
-                <Image className="menuImage" src={bread.imagePath} alt={bread.name}/>
-                <p className="menuPrice">${bread.price}</p>
-                <h2 className="menuName">{bread.name}</h2>
+                <Image className="menuImage" src={worker.imagePath} alt={worker.name}/>
+                <p className="menuPrice">${worker.price}</p>
+                <h2 className="menuName">{worker.name}</h2>
                 <hr className="menuPriceLine" />
-                <p className="menuDescription">{bread.description}</p>
+                <p className="menuDescription">{worker.description}</p>
               </Col>
-            )})}
+            )})}}
         </Row>
       </Container>
     </div>
@@ -43,4 +43,4 @@ function Menu() {
 }
 
 
-export default Menu;*/
+export default Menu;

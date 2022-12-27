@@ -12,7 +12,10 @@ function Home() {
       </Col>
         
         
-      <h1>hi</h1>
+      <h1>What is this?</h1>
+      <h2>This is an website for workers in Saint Johns Bakery.</h2>
+
+      
     </Container>
   );
 }
