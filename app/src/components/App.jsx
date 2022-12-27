@@ -12,8 +12,8 @@ function App() {
       <Header />
       <Routes>
         
-        <Route path="/" component={Home} exact />
-        <Route path="/workers" component={Workers} />
+        <Route path="/" element={<Home />} exact />
+        <Route path="/workers" element={<Workers />} />
 
       </Routes>
     </div>
