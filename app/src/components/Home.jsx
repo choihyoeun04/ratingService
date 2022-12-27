@@ -7,7 +7,7 @@ function Home() {
     <Container>
       <Col>
         <Row>
-          <Image className="testing" src="/images/testimage.png" alt="HomeBread1"/>
+          <Image className="testing" src="/images/testimage.jpg" alt="HomeBread1"/>
         </Row>
       </Col>
         
