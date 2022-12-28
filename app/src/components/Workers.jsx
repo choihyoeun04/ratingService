@@ -2,14 +2,13 @@ import React, {useEffect, useState} from 'react';
 import {Container, Row, Col, Image} from "react-bootstrap"
 
 function Menu() {
-  const [Workers, setWorkers] = useState([]);
+  const [workers, setWorkers] = useState([]);
 
   useEffect(() => {
     fetch("/workers")
       .then((res) => res.json())
       .then((data) => setWorkers(data.workers));
     }, []);
-
 
   return (
     <div className="aboutContainer">
@@ -26,7 +25,7 @@ function Menu() {
             <hr className="menuLine" />
             <p className="menuText">I'm a paragraph. Click here to add your own text and edit me. It’s easy.</p>
           </Col>
-          {{workers.map(worker => {
+          {workers.map(worker => {
             return (
               <Col>
                 <Image className="menuImage" src={worker.imagePath} alt={worker.name}/>
@@ -35,7 +34,7 @@ function Menu() {
                 <hr className="menuPriceLine" />
                 <p className="menuDescription">{worker.description}</p>
               </Col>
-            )})}}
+            )})}
         </Row>
       </Container>
     </div>
