@@ -1,5 +1,5 @@
 import React from "react";
-/*import "./Home.css";*/
+import "./Home.css";
 import {Container, Row, Col, Image} from "react-bootstrap";
 
 function Home() {
@@ -7,7 +7,11 @@ function Home() {
     <Container>
       <Col>
         <Row>
-          <Image className="testing" src="/images/testimage.jpg" alt="HomeBread1"/>
+          <Image className="bakeryLogo" src="/images/stjohnsLogo.gif" alt="Bakery Logo"/>
+          
+        </Row>
+        <Row>
+          <Image className="bakeryLogo" src="/images/breadInHome.jpg" alt="Bakery Image"/>
         </Row>
       </Col>
         
