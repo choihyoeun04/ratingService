@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Container, Row, Col, Image} from "react-bootstrap"
+import worker from ".server/workers.json";
 
 function Menu() {
   const [workers, setWorkers] = useState([]);
@@ -15,24 +16,23 @@ function Menu() {
       <Container>
         <Row>
           <Col>
-            <h1 className="aboutTitle">OUR MENU</h1>
+            <h1 className="aboutTitle">OUR WORKERS</h1>
           </Col>
         </Row>
         <Row>
           <Col className="menuCol">
             <hr className="menuLine" />
-            <h1 className="menuTitle">Bread</h1>
+            <h1 className="menuTitle">Workers</h1>
             <hr className="menuLine" />
             <p className="menuText">I'm a paragraph. Click here to add your own text and edit me. It’s easy.</p>
           </Col>
           {workers.map(worker => {
             return (
               <Col>
-                <Image className="menuImage" src={worker.imagePath} alt={worker.name}/>
-                <p className="menuPrice">${worker.price}</p>
-                <h2 className="menuName">{worker.name}</h2>
-                <hr className="menuPriceLine" />
-                <p className="menuDescription">{worker.description}</p>
+                <p className="workerTime">${worker.time}</p>
+                <h2 className="workerName">{worker.name}</h2>
+                <hr className="workerLine" />
+                <p className="wirkerdescription">{worker.description}</p>
               </Col>
             )})}
         </Row>
