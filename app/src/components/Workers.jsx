@@ -45,4 +45,4 @@ function Workers() {
 }
 
 
-export default Menu;
+export default Workers;
