@@ -18,7 +18,6 @@ function Header() {
             <ButtonGroup className="buttonsGroup2" aria-label="First group" style={{display : 'inline'}}>
               <HomeButton className="buttonsGroup1" buttonName="Home" path="/"/>
               <HomeButton className="buttonsGroup1" buttonName="Workers" path="/workers"/>
-              <HomeButton className="buttonsGroup1" buttonName="Menu" path="/menu"/>
             </ButtonGroup>
 
             <ButtonGroup className="buttonsGroup3" style={{display : 'inline'}}>

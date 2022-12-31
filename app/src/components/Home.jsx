@@ -18,6 +18,7 @@ function Home() {
         
       <h1>What is this?</h1>
       <h2>This is an website for workers in Saint Johns Bakery.</h2>
+      <a href="https://youtu.be/p1cE9T0CFCQ?t=161" target="_blank">Link to our Bakery Website</a>
 
       
     </Container>
