@@ -1,5 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import {Container, Row, Col, Image, Card} from "react-bootstrap"
+import {Container, Row, Col, Image, Card, CardGroup} from "react-bootstrap"
+import "./Workers.css"
+
+
 
 function Workers() {
   const [workers, setWorkers] = useState([]);
@@ -26,18 +29,22 @@ function Workers() {
             <hr className="menuLine" />
             <h1 className="menuTitle">Workers</h1>
             <hr className="menuLine" />
-            <p className="menuText">I'm a paragraph. Click here to add your own text and edit me. It’s easy.</p>
+            <p className="menuText">Workers at Saint Johns Bakery</p>
+            <hr></hr>
           </Col>
+          <CardGroup>
           {workers.map(workers => {
             return (
               <Col>
-                <p className="workerTime">${workers.time}</p>
-                <h2 className="workerName">{workers.name}</h2>
-                <hr className="workerLine" />
-                <p>hi</p>
-                <p className="wirkerdescription">{workers.description}</p>
+              <Card>
+                <Card.Img variant="top" src={workers.imagePath} alt={workers.name} className="workerImage" />
+                <Card.Title className="workerName">{workers.name}</Card.Title>
+                <Card.Text className="workerTime">{workers.time}</Card.Text>
+                <Card.Text className="wirkerdescription">{workers.description}</Card.Text>
+              </Card>
               </Col>
             )})}
+            </CardGroup>
         </Row>
       </Container>
     </div>

@@ -1,18 +1,18 @@
 {
     "workers" : [
-        {"id":1,"name":"Adda","time":"12/14/2022","description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo."},
-        {"id":2,"name":"Karalynn","time":"12/6/2022","description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla."},
-        {"id":3,"name":"Penelope","time":"12/1/2022","description":"Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."},
-        {"id":4,"name":"My","time":"10/16/2022","description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."},
-        {"id":5,"name":"Sidonia","time":"3/30/2022","description":"Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."},
-        {"id":6,"name":"Barron","time":"3/4/2022","description":"Suspendisse ornare consequat lectus."},
-        {"id":7,"name":"Elton","time":"4/3/2022","description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl."},
-        {"id":8,"name":"Dolorita","time":"5/12/2022","description":"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum."},
-        {"id":9,"name":"Melisse","time":"9/29/2022","description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim."},
-        {"id":10,"name":"Kelli","time":"1/15/2022","description":"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."},
-        {"id":11,"name":"Frederich","time":"6/3/2022","description":"Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst."},
-        {"id":12,"name":"Wilmer","time":"5/3/2022","description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."},
-        {"id":13,"name":"Andrew","time":"3/16/2022","description":"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat."}]
+        {"imagePath":"./images/HJ1.jpeg","name":"Adda","time":"12/14/2022","description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo."},
+        {"imagePath":"./images/HJ2.jpeg","time":"12/6/2022","description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla."},
+        {"imagePath":"./images/HJ3.webp","time":"12/1/2022","description":"Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."},
+        {"imagePath":"/images/HJ4.jpg","time":"10/16/2022","description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."},
+        {"imagePath":"/images/HJ5.webp","time":"3/30/2022","description":"Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."},
+        {"imagePath":"/images/HJ6.gif","time":"3/4/2022","description":"Suspendisse ornare consequat lectus."},
+        {"imagePath":"/images/HJ7.webp","time":"4/3/2022","description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl."},
+        {"imagePath":"/images/HJ8.gif","time":"5/12/2022","description":"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum."},
+        {"imagePath":"/images/HJ9.jpeg","time":"9/29/2022","description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim."},
+        {"imagePath":"/images/HJ10.gif","time":"1/15/2022","description":"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."},
+        {"imagePath":"/images/HJ11.gif","time":"6/3/2022","description":"Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst."},
+        {"imagePath":"/images/HJ12.gif","time":"5/3/2022","description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."},
+        {"imagePath":"/images/FL1.jpeg","time":"3/16/2022","description":"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat."}]
 
 
 
