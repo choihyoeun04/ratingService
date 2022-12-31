@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import {Container, Row, Col, Image} from "react-bootstrap"
-import worker from ".server/workers.json";
 
 function Menu() {
   const [workers, setWorkers] = useState([]);
@@ -32,6 +31,7 @@ function Menu() {
                 <p className="workerTime">${worker.time}</p>
                 <h2 className="workerName">{worker.name}</h2>
                 <hr className="workerLine" />
+                <p>hi</p>
                 <p className="wirkerdescription">{worker.description}</p>
               </Col>
             )})}
