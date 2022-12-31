@@ -28,14 +28,14 @@ function Workers() {
             <hr className="menuLine" />
             <p className="menuText">I'm a paragraph. Click here to add your own text and edit me. It’s easy.</p>
           </Col>
-          {workers.map(worker => {
+          {workers.map(workers => {
             return (
               <Col>
-                <p className="workerTime">${worker.time}</p>
-                <h2 className="workerName">{worker.name}</h2>
+                <p className="workerTime">${workers.time}</p>
+                <h2 className="workerName">{workers.name}</h2>
                 <hr className="workerLine" />
                 <p>hi</p>
-                <p className="wirkerdescription">{worker.description}</p>
+                <p className="wirkerdescription">{workers.description}</p>
               </Col>
             )})}
         </Row>
