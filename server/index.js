@@ -7,6 +7,9 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+const workers = require('./workers.json');
+
+
 app.use(express.static(path.resolve(__dirname, '../app/build')));
 
 
@@ -14,7 +17,10 @@ app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" });
 });
 
-
+app.get("/workers", (req, res) => {
+  res.header("Content-Type",'application/json');
+  res.send(JSON.stringify(workers));
+});
 
 
 app.get('*', (req, res) => {
