@@ -1,8 +1,8 @@
 {
     "workers" : [
-        {"imagePath":"./images/HJ1.jpeg","name":"Adda","time":"12/14/2022","description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo."},
-        {"imagePath":"./images/HJ2.jpeg","time":"12/6/2022","description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla."},
-        {"imagePath":"./images/HJ3.webp","time":"12/1/2022","description":"Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."},
+        {"imagePath":"/images/HJ1.jpeg","name":"Adda","time":"12/14/2022","description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo."},
+        {"imagePath":"/images/HJ2.jpeg","time":"12/6/2022","description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla."},
+        {"imagePath":"/images/HJ3.webp","time":"12/1/2022","description":"Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."},
         {"imagePath":"/images/HJ4.jpg","time":"10/16/2022","description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."},
         {"imagePath":"/images/HJ5.webp","time":"3/30/2022","description":"Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."},
         {"imagePath":"/images/HJ6.gif","time":"3/4/2022","description":"Suspendisse ornare consequat lectus."},
