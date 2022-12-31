@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {Container, Row, Col, Image} from "react-bootstrap"
+import {Container, Row, Col, Image, Card} from "react-bootstrap"
 
-function Menu() {
+function Workers() {
   const [workers, setWorkers] = useState([]);
 
   useEffect(() => {
@@ -10,6 +10,9 @@ function Menu() {
       .then((data) => setWorkers(data.workers));
     }, []);
 
+
+
+    
   return (
     <div className="aboutContainer">
       <Container>
