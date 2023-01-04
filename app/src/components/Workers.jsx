@@ -30,7 +30,6 @@ function Workers() {
             <h1 className="menuTitle">Workers</h1>
             <hr className="menuLine" />
             <p className="menuText">Workers at Saint Johns Bakery</p>
-            <p className="menuText">와 ㅋㅋ 학교때려치고 여기서 알바하고싶다 아 ㅋㅋ</p>
             <hr></hr>
           </Col>
           <CardGroup>

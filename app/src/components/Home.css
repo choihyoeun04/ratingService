@@ -1,3 +1,45 @@
 .bakeryLogo {
+    width: 10%;
+}
+
+
+.bakeryImage {
+    display: inline;
+    width: 100%;
+}
+.websiteDespcription1 {
+    font-family: 'Raleway', sans-serif;
     display: inline;
 }
+
+.websiteDespcription2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+}
+
+.websiteDescriptionParagraph {
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+}
+.websiteDespcriptionText {
+    display: contents;
+    font-size: 90%;
+}
+
+@media screen and (max-width: 800px) {
+    .websiteDespcriptionText {
+        display: contents;
+        font-size: 50%;
+    }
+    .websiteDespcription2 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 100%;
+    }
+    
+    .websiteDescriptionParagraph {
+        font-weight: 300;
+        font-family: 'Raleway', sans-serif;
+        font-size: 50%;
+    }
+    }

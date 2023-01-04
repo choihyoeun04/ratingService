@@ -1,6 +1,6 @@
 import React from "react";
 import HomeButton from "./HomeButton";
-import {Container, Row, Col, Navbar, Button, ButtonGroup, ButtonToolbar } from "react-bootstrap"
+import {Container, Row, Col, Navbar, Button, ButtonGroup, Nav, Image } from "react-bootstrap"
 import "./Header.css"
 
 
@@ -10,21 +10,22 @@ function Header() {
   }
 
   return (
-        <ButtonToolbar aria-label="Toolbar with button groups">
-            <ButtonGroup className="buttonsGroup1" style={{display : 'inline'}}>
-              <Button className="buttonsGroup1" onClick={refreshPage}>Rating service for Saint Johns Bakery</Button>
-            </ButtonGroup>
-
-            <ButtonGroup className="buttonsGroup2" aria-label="First group" style={{display : 'inline'}}>
+        <Navbar fixed="top" >
+          
+          <Navbar.Brand>
+            <Image className="websiteName" src="/images/websiteName.png" onClick={refreshPage} />
+          </Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link>
               <HomeButton className="buttonsGroup1" buttonName="Home" path="/"/>
+            </Nav.Link>
               <HomeButton className="buttonsGroup1" buttonName="Workers" path="/workers"/>
-            </ButtonGroup>
 
-            <ButtonGroup className="buttonsGroup3" style={{display : 'inline'}}>
+            
               <HomeButton className="homeButton" buttonName="Sign up" path="/signup"/>
               <HomeButton className="homeButton" buttonName="Log in" path="/login"/>
-            </ButtonGroup>
-        </ButtonToolbar>
+          </Nav>
+        </Navbar>
 
   );
 
