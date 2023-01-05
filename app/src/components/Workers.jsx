@@ -21,15 +21,14 @@ function Workers() {
       <Container>
         <Row>
           <Col>
-            <h1 className="aboutTitle">OUR WORKERS</h1>
+            <h1 className="workersTitle">OUR WORKERS</h1>
           </Col>
         </Row>
         <Row>
           <Col className="menuCol">
-            <hr className="menuLine" />
-            <h1 className="menuTitle">Workers</h1>
-            <hr className="menuLine" />
-            <p className="menuText">Workers at Saint Johns Bakery</p>
+            <hr className="workerLine" />
+            <h1 className="workersTitle">Workers</h1>
+            <p className="workersDescription">Workers at Saint Johns Bakery</p>
             <hr></hr>
           </Col>
           <CardGroup>
@@ -40,7 +39,7 @@ function Workers() {
                 <Card.Img variant="top" src={workers.imagePath} alt={workers.name} className="workerImage" />
                 <Card.Title className="workerName">{workers.name}</Card.Title>
                 <Card.Text className="workerTime">{workers.time}</Card.Text>
-                <Card.Text className="wirkerdescription">{workers.description}</Card.Text>
+                <Card.Text className="workerdescription">{workers.description}</Card.Text>
               </Card>
               </Col>
             )})}

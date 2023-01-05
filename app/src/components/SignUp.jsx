@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./SignUp.css"
+
 
 function SignUp() {
   const [contact, setContact] = useState({
@@ -21,11 +23,11 @@ function SignUp() {
 
   return (
     <div className="container">
-      <h1>
+      <h1 className="greetings">
         Hello [ {contact.name} ]
       </h1>
-      <p>Your email is [ {contact.adminCode} ] </p>
-      <p>Your Admin Code is [ {contact.adminCode} ] </p>
+      <p className="greetings">Your email is [ {contact.adminCode} ] </p>
+      <p className="greetings">Your Admin Code is [ {contact.adminCode} ] </p>
       <form>
         <input
           onChange={handleChange}
