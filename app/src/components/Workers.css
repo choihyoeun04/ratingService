@@ -1,12 +1,12 @@
-.workerName {
+.workersName {
     font-family: 'Raleway', sans-serif;
 }
 
-.workerTime {
+.workersTime {
     font-family: 'Raleway', sans-serif;
 }
 
-.workerdescription {
+.workersdescription {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -17,3 +17,32 @@
 .workersDescription {
     font-family: 'Raleway', sans-serif;
 }   
+
+.workersmainContainer {
+    padding: 3% 3% 3% 3%;
+}
+
+.workersContainer {
+    background: #ffffff;
+}
+
+.workersImage {
+    padding: 2% 2% 2% 2%;
+    display: inline;
+}
+
+.workersName {
+    padding: 2% 2% 2% 2%;
+    display: inline-block;
+
+}
+
+.workersTime {
+    padding: 2% 2% 2% 2%;
+    display: inline-block;
+}
+
+.workersdescription {
+    padding: 2% 2% 2% 2%;
+    display: inline-block;
+}

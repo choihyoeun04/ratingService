@@ -11,7 +11,7 @@ function Header() {
 
   return (
         <Navbar fixed="top" >
-          
+          //Row??Col??
           <Navbar.Brand>
             <Image className="websiteName" src="/images/websiteName.png" onClick={refreshPage} />
           </Navbar.Brand>

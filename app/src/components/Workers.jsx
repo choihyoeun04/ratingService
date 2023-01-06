@@ -17,36 +17,32 @@ function Workers() {
 
     
   return (
-    <div className="aboutContainer">
-      <Container>
+      <Container className="workersmainContainer">
         <Row>
           <Col>
             <h1 className="workersTitle">OUR WORKERS</h1>
           </Col>
         </Row>
         <Row>
-          <Col className="menuCol">
-            <hr className="workerLine" />
+          <Col className="workersCol">
+            <hr className="workersLine" />
             <h1 className="workersTitle">Workers</h1>
             <p className="workersDescription">Workers at Saint Johns Bakery</p>
             <hr></hr>
           </Col>
-          <CardGroup>
+          <Col>
           {workers.map(workers => {
             return (
-              <Col>
-              <Card>
-                <Card.Img variant="top" src={workers.imagePath} alt={workers.name} className="workerImage" />
-                <Card.Title className="workerName">{workers.name}</Card.Title>
-                <Card.Text className="workerTime">{workers.time}</Card.Text>
-                <Card.Text className="workerdescription">{workers.description}</Card.Text>
-              </Card>
-              </Col>
+              <div className='workersContainer'>
+                <Image variant="top" src={workers.imagePath} alt={workers.name} className="workersImage" />
+                <h3 className="workersName">{workers.name}</h3>
+                <p className="workersTime">{workers.time}</p>
+                <p className="workersdescription">{workers.description}</p>
+              </div>
             )})}
-            </CardGroup>
+          </Col>
         </Row>
       </Container>
-    </div>
   )
 }
 
