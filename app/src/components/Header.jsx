@@ -11,19 +11,14 @@ function Header() {
 
   return (
         <Navbar fixed="top" >
-          //Row??Col??
-          <Navbar.Brand>
-            <Image className="websiteName" src="/images/websiteName.png" onClick={refreshPage} />
-          </Navbar.Brand>
           <Nav className="me-auto">
+            <Image className="websiteName" src="/images/websiteName.png" onClick={refreshPage} />
             <Nav.Link>
               <HomeButton className="buttonsGroup1" buttonName="Home" path="/"/>
             </Nav.Link>
-              <HomeButton className="buttonsGroup1" buttonName="Workers" path="/workers"/>
-
-            
-              <HomeButton className="homeButton" buttonName="Sign up" path="/signup"/>
-              <HomeButton className="homeButton" buttonName="Log in" path="/login"/>
+            <HomeButton className="buttonsGroup1" buttonName="Workers" path="/workers"/>
+            <HomeButton className="homeButton" buttonName="Sign up" path="/signup"/>
+            <HomeButton className="homeButton" buttonName="Log in" path="/login"/>
           </Nav>
         </Navbar>
 
