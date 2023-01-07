@@ -27,6 +27,20 @@
     font-size: 90%;
 }
 
+.homeIntroduction {
+    padding: 3% 3% 3% 3%;
+}
+
+.linkContainer {
+    display: inline;
+}
+
+.linkToBakery {
+    
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
 @media screen and (max-width: 800px) {
     .websiteDespcriptionText {
         display: contents;

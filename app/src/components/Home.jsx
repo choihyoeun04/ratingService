@@ -6,7 +6,7 @@ function Home() {
   return (
     <Container>
       <Col>
-        <Row>
+        <Row className="homeIntroduction">
           <Col>
             <Image className="bakeryLogo" src="/images/stjohnsLogo.gif" alt="Bakery Logo"/>
           </Col>
@@ -19,17 +19,20 @@ function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed erat sed velit vehicula finibus. Ut eget dapibus felis. </p>
           </Col>
         </Row>
-        <Row>
+        <Row className="homeIntroduction">
           <Image className="bakeryImage" src="/images/breadInHome.jpg" alt="Bakery Image"/>
         </Row>
       </Col>
         
+      <Row className="homeIntroduction">
+        <h1 className="websiteDespcription2">What is this?</h1>
+        <h2 className="websiteDescriptionParagraph">This is an website for workers in Saint Johns Bakery. Our workers are listed in 'Workers' Tab.</h2>
+        <Container className="linkContainer">
+          <a href="https://youtu.be/p1cE9T0CFCQ?t=161" target="_blank" className="linkToBakery">Link to our Bakery Website &spades;</a>
+        </Container>
         
-      <h1 className="websiteDespcription2">What is this?</h1>
-      <h2 className="websiteDescriptionParagraph">This is an website for workers in Saint Johns Bakery.</h2>
-      <a href="https://youtu.be/p1cE9T0CFCQ?t=161" target="_blank">Link to our Bakery Website</a>
-
-      
+    
+      </Row>      
     </Container>
   );
 }

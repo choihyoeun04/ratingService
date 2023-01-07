@@ -6,6 +6,7 @@ import { Routes ,Route } from 'react-router-dom';
 import Home from "./Home";
 import SignUp from "./SignUp";
 import LogIn from "./LogIn";
+import Footer from "./Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/login" element={<LogIn />} />
 
       </Routes>
+      <Footer />
     </div>
   );
 }
