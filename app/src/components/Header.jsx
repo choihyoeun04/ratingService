@@ -10,7 +10,7 @@ function Header() {
   }
 
   return (
-        <Navbar fixed="top" >
+        <Navbar fixed="top">
           <Nav className="me-auto">
             <Image className="websiteName" src="/images/websiteName.png" onClick={refreshPage} />
             <Nav.Link>

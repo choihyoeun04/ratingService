@@ -7,12 +7,6 @@ function Home() {
     <Container>
      
         <Row className="homeIntroduction">
-          <Col>
-            hello
-          </Col>
-          <Col>
-             world
-          </Col>
         </Row>
         <Row className="homeIntroduction">
           <Image className="bakeryImage" src="/images/breadInHome.jpg" alt="Bakery Image"/>
