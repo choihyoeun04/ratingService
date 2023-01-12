@@ -1,27 +1,20 @@
 import React from "react";
 import {Container, Row, Col, Navbar, Button, ButtonGroup, Nav, Image, ListGroup  } from "react-bootstrap"
 
-
 function Footer() {
-    
-    return (
-        <div>
-            <ListGroup horizontal>
-                <ListGroup.Item>
-                    <p className="tester">Ways to contact Admins</p>
-                </ListGroup.Item>
-                <ListGroup.Item>
-                    <p className="tester">Click to go to Bakery website</p>
-                </ListGroup.Item>
-                <ListGroup.Item>
-                    <p className="tester">Admins :</p>
-                </ListGroup.Item>
-            </ListGroup>
+  return (
+    <Container>
+      <Container className="footerContainer">
+        <p className="footer">2 of 2</p>
+        <p className="footer">2 of 2</p>
+      </Container>
+      <Row>
+        <p className="footer">2 of 2</p>
+        <p className="footer">2 of 2</p>
+        <p className="footer">2 of 2</p>
+      </Row>
+    </Container>
+  );
+}
 
-
-        </div>
-  
-    );
-  
-  }
-  export default Footer;
+export default Footer;

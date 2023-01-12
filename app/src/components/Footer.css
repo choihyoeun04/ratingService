@@ -1,3 +1,12 @@
-.tester {
+.footer {
     font-family: 'Raleway', sans-serif;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.footerContainer {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
 }
