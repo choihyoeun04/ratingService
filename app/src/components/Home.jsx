@@ -17,7 +17,7 @@ function Home() {
         <h1 className="websiteDespcription2">What is this?</h1>
         <h2 className="websiteDescriptionParagraph">This is an website for workers in Saint Johns Bakery. Our workers are listed in 'Workers' Tab.</h2>
         <Container className="linkContainer">
-          <a href="https://youtu.be/p1cE9T0CFCQ?t=161" target="_blank" className="linkToBakery">Link to our Bakery Website &spades;</a>
+          <a href="https://www.stjohnsbakery.com/" target="_blank" className="linkToBakery">Link to our Bakery Website &spades;</a>
         </Container>
         
     

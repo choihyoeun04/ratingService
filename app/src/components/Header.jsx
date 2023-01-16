@@ -10,18 +10,20 @@ function Header() {
   }
 
   return (
-        <Navbar fixed="top">
-          <Nav className="me-auto">
-            <Image className="websiteName" src="/images/websiteName.png" onClick={refreshPage} />
-            <Nav.Link>
-              <HomeButton className="buttonsGroup1" buttonName="Home" path="/"/>
-            </Nav.Link>
-            <HomeButton className="buttonsGroup1" buttonName="Workers" path="/workers"/>
-            <HomeButton className="homeButton" buttonName="Sign up" path="/signup"/>
-            <HomeButton className="homeButton" buttonName="Log in" path="/login"/>
-          </Nav>
-        </Navbar>
-
+        <Container>
+          <Row className="navbarContainer">
+            <Col className="buttonsContainer">
+              <Image className="websiteName" src="/images/websiteName.png" onClick={refreshPage} />
+                  <HomeButton className="buttonsGroup1" buttonName="Home" path="/"/>
+                  <HomeButton className="buttonsGroup1" buttonName="Workers" path="/workers"/>
+                </Col>
+                <Col className="buttonsContainer2">
+                  
+                  <HomeButton className="homeButton" buttonName="Sign up" path="/signup"/>
+                  <HomeButton className="homeButton" buttonName="Log in" path="/login"/>
+              </Col>
+          </Row>
+        </Container>
   );
 
 }

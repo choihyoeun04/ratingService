@@ -46,3 +46,11 @@ app.get('*', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });;
+
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://127.0.0.1:27017/');
+
+
+
+

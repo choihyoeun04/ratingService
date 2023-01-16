@@ -22,7 +22,7 @@ function SignUp() {
   }
 
   return (
-    <div className="container">
+    <div className="signupContainer">
       <h1 className="greetings">
         Hello [ {contact.name} ]
       </h1>
@@ -31,9 +31,10 @@ function SignUp() {
       <form>
         <input
           onChange={handleChange}
+          className="signUpName"
           name="name"
           value={contact.name}
-          placeholder="Name including the space between first name and last name"
+          placeholder="Name"
           style={{display : 'block'}}
         />
         <input
@@ -41,18 +42,21 @@ function SignUp() {
           name="email"
           value={contact.email}
           placeholder="Email"
+          className="signupInput"
         />
         <input
           onChange={handleChange}
           name="password"
           value={contact.password}
           placeholder="Password"
+          className="signupInput"
         />
         <input
           onChange={handleChange}
           name="adminCode"
           value={contact.adminCode}
           placeholder="Admin Code"
+          className="signupInput"
         />
         <button>Submit</button>
       </form>

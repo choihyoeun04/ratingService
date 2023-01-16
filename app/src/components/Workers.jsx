@@ -33,12 +33,16 @@ function Workers() {
           <Col>
           {workers.map(workers => {
             return (
-              <div className='workersContainer'>
-                <Image variant="top" src={workers.imagePath} alt={workers.name} className="workersImage" />
-                <h3 className="workersName">{workers.name}</h3>
-                <p className="workersTime">{workers.time}</p>
-                <p className="workersdescription">{workers.description}</p>
-              </div>
+              <Row className='workersContainer'>
+                <Col className='workersDescriptionCol'>
+                  <Image variant="top" src={workers.imagePath} alt={workers.name} className="workersImage" />
+                </Col>
+                <Col className='workersDescriptionCol2'>
+                  <h3 className="workersName">{workers.name}</h3>
+                  <p className="workersTime">{workers.time}</p>
+                  <p className="workersdescription">{workers.description}</p>
+                </Col>
+              </Row>
             )})}
           </Col>
         </Row>

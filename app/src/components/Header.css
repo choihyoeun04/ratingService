@@ -1,15 +1,22 @@
-.buttonGroup1 {
+.websiteName {
+    width: 50%;
+    padding: 0;
     display: inline-block;
-    
-}
-.buttonGroup2 {
-    display: inline-block;
-}
-.buttonGroup3 {
-    display: inline-block;
+
 }
 
-.websiteName {
+.buttonsContainer {
+    display: inline-block;
     width: 50%;
 }
 
+.buttonsContainer2 {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.navbarContainer {
+    margin: 0 0 0 0;
+    padding: 0% 3% 3% 3%;
+}

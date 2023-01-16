@@ -1,3 +1,15 @@
 .greetings {
     font-family: 'Raleway', sans-serif;
 }
+
+.signupContainer {
+    margin: 3% 3% 3% 3%;
+}
+
+.signUpName {
+    margin: 2% 0 2% 0;
+}
+
+.signupInputContainer {
+    margin: 2% 0 2% 0;
+}

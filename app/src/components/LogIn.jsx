@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Login.css"
 
 function LogIn() {
   const [contact, setContact] = useState({
@@ -18,7 +19,7 @@ function LogIn() {
   }
 
   return (
-    <div className="container">
+    <div className="loginContainer">
         <input
           onChange={handleChange}
           name="email"
