@@ -4,12 +4,19 @@
 
 .signupContainer {
     margin: 3% 3% 3% 3%;
+    border: 1px solid #000000;
+    padding: 2% 2% 2% 2%;
 }
 
 .signUpName {
     margin: 2% 0 2% 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .signupInputContainer {
     margin: 2% 0 2% 0;
+}
+
+.signupInput {
+    font-family: 'Raleway', sans-serif;
 }

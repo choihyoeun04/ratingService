@@ -1,3 +1,24 @@
 .loginContainer {
     margin: 3% 3% 3% 3%;
+    border: 1px solid #000000;
+}
+
+.loginTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+    margin: 2% 2% 2% 2%;
+}
+
+.loginButton {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+.loginInputContainer {
+    margin: 2% 2% 2% 2%;
+}
+
+.loginInput {
+    font-family: 'Raleway', sans-serif;
 }
